@@ -1,0 +1,58 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyd
+.python-version
+venv/
+env/
+blockchain
+instance/
+*.egg-info/
+.pytest_cache/
+.coverage
+.tox/
+*.log
+
+# Node.js/React specific
+node_modules/
+build/
+dist/
+package-lock.json
+yarn.lock
+.cache/
+
+# OS and Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Other common ignores (adjust as needed)
+.env # Important: Never commit your environment variables!
+*.sqlite
