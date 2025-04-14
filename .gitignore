@@ -29,7 +29,7 @@ __pycache__/
 .python-version
 venv/
 env/
-blockchain
+
 instance/
 *.egg-info/
 .pytest_cache/
